@@ -1,4 +1,6 @@
-# NumPy Practice Projects
+#  Python Library  Practice Projects
+
+## NumPy Practice Projects
 
 A collection of NumPy projects created while learning numerical computing, array manipulation, and data analysis using Python.
 
