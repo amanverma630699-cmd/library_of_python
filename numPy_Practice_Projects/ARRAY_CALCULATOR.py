@@ -25,7 +25,7 @@
 import numpy as np
 class array_calculator:
   def __init__(self):
-    self.array=np.array([])
+    self.array=np.array([[0]])
   def create_array(self):
       self.array=np.array(list(map(int,input("Enter Numbers: ").split())))
   def view_array(self):
@@ -35,9 +35,6 @@ class array_calculator:
   def Subtract_Number(self,num):
     print(f"the subtract of {num } on array are {self.array-num}")
   def Multiple_Number(self,num):
-    if num==0:
-      print("you can't multiple by zero")
-    else:
       print(f"the multiple of {num } on array are {self.array*num}")
   def divide_Number(self,num):
     if num==0:

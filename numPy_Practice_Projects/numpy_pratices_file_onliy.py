@@ -41,7 +41,6 @@
 # print(a2)
 # print(a3)
 import numpy as np
-import pandas as pd
 class student:
   def __init__(self):
     self.data= np.array([])
@@ -89,34 +88,11 @@ class student:
         gr_rol=gr.reshape(-1,1)
         re=np.hstack([self.data,gr_rol])
         print(re)
-      
-        
-#         for i in range(num.shape[0]):
-#             for j in range(num.shape[1]):
-#              if num[i][j] in range(90,100):
-#                     np.append(p,"A")             
-#              elif num[i][j] in range(80,90):
-#                     np.append(p,"B")              
-
-#              elif num[i][j] in range(60,80):
-#                     np.append(p,"c")
-
-#              elif num[i][j] in range(50,60):
-#                     np.append(p,"D")
-
-#              else:
-#                    np.append(p,"fail")
-#         p=np.array(p).reshape(-1,1)
-#         s=np.hstack([self.data,p])
-#         print(s)
 
 
 
 
-
-
-
-
+# 
 
 st=student()
 st.Add_data([

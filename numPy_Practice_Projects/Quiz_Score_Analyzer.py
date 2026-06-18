@@ -41,8 +41,3 @@ rank_students(score)
 
 
 
-
-
-# highest_score(scores)
-# lowest_score(scores)
-# rank_students(scores)
