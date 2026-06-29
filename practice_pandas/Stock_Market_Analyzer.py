@@ -1,28 +1,5 @@
 
 
-# - Volatility calculation
-# - Trend detection
-
-# ### NumPy Concepts
-
-# ```
-# mean()
-# std()
-# var()
-# diff()
-# cumsum()
-# argmax()
-# argmin()
-# ```
-
-# ### Pandas Concepts
-
-# ```
-# rolling()
-# corr()
-# to_datetime()
-# sort_values()
-
 
 import numpy as np
 import pandas as pd
