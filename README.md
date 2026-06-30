@@ -20,7 +20,6 @@ A collection of NumPy projects created while learning numerical computing, array
 - Division
 - Array Operations
 
----
 
 ### 2. NumPy Toolkit
 **Concepts Learned**
