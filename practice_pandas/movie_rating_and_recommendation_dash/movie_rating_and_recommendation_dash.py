@@ -84,45 +84,7 @@ def compearing():
 # co_as=compearing()
 
 
-# Ratings
-# Highest rated movie
-# Lowest rated movie
-# Average rating
-# Median rating
-# Rating distribution
-# Top 10 movies
-# Revenue Analysis
-# Highest revenue movie
-# Lowest revenue movie
-# Average revenue
-# Total box office collection
-# Budget Analysis
-# Most expensive movie
-# Cheapest movie
-# Average budget
-# Budget vs Rating
-# Profit Analysis
-# profit = revenue - budget
-# Most profitable movie
-# Least profitable movie
-# Average profit
-# Genre Analysis
-# Best genre by average rating
-# Most profitable genre
-# Number of movies per genre
-# Year Analysis
-# Best year for movies
-# Movies released per year
-# Rating trend over years
-# Duration Analysis
-# Longest movie
-# Shortest movie
-# Average duration
-# Duration vs Rating
-# Voting Analysis
-# Most voted movie
-# Average votes
-# Votes vs Rating
+
 
 while True:
      print("movie Analysis \n")

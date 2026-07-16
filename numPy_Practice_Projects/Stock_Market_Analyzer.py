@@ -1,14 +1,6 @@
 # Stock Market Analyzer
 
 
-# - Daily change
-# - Highest price
-# - Lowest price
-# - Average price
-# - Growth %
-# - Best day
-# - Worst day
-# - Moving average
 import numpy as np
 
 def data_strorage():
@@ -36,7 +28,7 @@ def data_summary():
     elif what=="3":
         return np.mean(data,axis=0,keepdims=True)
     elif what=="4":
-        return {np.diff(data,axis=0)/data[:-1]*100, np.diff(data,axis=1)/data[:-1]*100}
+        return {np.diff(data,axis=0)/data[:-1]*100, np.diff(data,axis=0)/data[:-1]*100}
     elif what=="5":
         return np.argmax(data,axis=0,keepdims=True)
     elif what=="6":

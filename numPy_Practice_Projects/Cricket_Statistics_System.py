@@ -48,11 +48,11 @@ def Century_and_fifty_finder():
         for j in range(co):
          if da[i][j]>=100:
            print(f"the player {i} in matches {j} make Centur of 100 run")
-         elif da[i][j]>=50 & da[i][j]<=99:
+         elif da[i][j] >= 50 and da[i][j] <= 99:
             print(f"the player {i} in matches {j} make fifty of 50 run ")
          else:
            print("no one make century and fifty ")
-    
+           break
     return 
 ce=Century_and_fifty_finder()
 print(ce)
